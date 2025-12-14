@@ -40,6 +40,7 @@ import_array1(-1);
 %import "eltrans.i"
 %import "lininteg.i"
 %import "handle.i"
+%import "ordering.i"
 %import "restriction.i"
 %include "../common/typemap_macros.i"
 %import "../common/exception.i"

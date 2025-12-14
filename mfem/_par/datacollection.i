@@ -30,4 +30,7 @@ import_array1(-1);
 %import "gridfunc.i"
 %import "pgridfunc.i"
 
+%ignore mfem::ParaViewDataCollection::GetCoeffFieldMap;
+%ignore mfem::ParaViewDataCollection::GetVCoeffFieldMap;
+
 %include "fem/datacollection.hpp"

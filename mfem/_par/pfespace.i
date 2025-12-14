@@ -26,6 +26,7 @@ import_array1(-1);
  //%include "../common/cpointers.i"
  //%import "cpointers.i"
 %import "operators.i"
+%import "ordering.i"
 %import "fespace.i"
 %import "pmesh.i"
 %import "hypre.i"

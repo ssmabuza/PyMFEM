@@ -28,5 +28,6 @@ import_array1(-1);
 %import tmop.i
 %import bilinearform.i
 %import solvers.i
+%import ordering.i
 
 %include "fem/tmop_tools.hpp"

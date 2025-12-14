@@ -29,6 +29,7 @@ import_array1(-1);
 OSTREAM_TYPEMAP(std::ostream&)
 
 %import "mem_manager.i"
+%ignore mfem::Table::ReadWriteJ();
 
 %include "general/table.hpp"
 

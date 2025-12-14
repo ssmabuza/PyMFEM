@@ -34,5 +34,6 @@ import_array1(-1);
 %import bilinearform.i
 %import pbilinearform.i
 %import solvers.i
+%import ordering.i
 
 %include "fem/tmop_tools.hpp"

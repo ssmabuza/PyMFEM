@@ -30,6 +30,8 @@ OSTREAM_TYPEMAP(std::ostream&)
 
 %import "mem_manager.i"
 
+%ignore mfem::Table::ReadWriteJ();
+
 %include "general/table.hpp"
 
 %extend mfem::Table {
